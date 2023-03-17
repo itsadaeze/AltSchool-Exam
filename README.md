@@ -1,0 +1,53 @@
+# AltSchool 3rd Semester Exam
+
+Hi, 👋 \
+I'm  (AltSchooler) currently studying Frontend Software Engineering at AltSchool Africa\
+I'm using this medium to give thanks to  Altschool Africa  for chance giving to me to learn new technology skills ( VueJs).
+```
+Attached here's some notes about my submission:
+
+1. A link to the project repository  
+
+2. A publicly live hosted URL of the challenge 
+
+Thank you very much AltSchool Africa.
+Best regards
+Ugwu Adaeze
+
+```
+# Technologies 
+
+ + [JavaScript](https://javascript.info/) 
+ + [VueJs](https://vuejs.org/) 
+ + [VueX](https://vuex.vuejs.org/)
+ + [Vercel](https://vercel.com/dashboard) 
+ + [Vue Router](https://router.vuejs.org/) 
+
+
+# Prototype
+![Minion](/src/assets/project-img.jpeg)
+ 
+# How to Contribute
+
+1. Clone the repository 
+$ git clone [https://github.com/itsadaeze/AltSchool-Vue-Exam](https://github.com/itsadaeze/AltSchool-Vue-Exam)
+
+2. Change directory into the cloned folder and run the setup script
+$ cd AltSchool-Vue-Exam3
+
+3. Open your terminal and type this command `yarn add vue` to add the vue dependency to the app in the development mode.
+
+4. Then after the installation of the vue dependency type this command  `yarn serve` to run the app in your local environment 
+
+5. Copy this link [http://localhost:8080/](http://localhost:8080/) and paste it to your web browser(Chrome, safari, mozilla firefox et.c) to view it.
+
+
+# Deployment
+Vercel was used to deploy the app. 
+ + [Vercel](https://vercel.com/dashboard)
+
+# License
+The MIT License - Copyright (c) 2023 - Present Storage Service.
+
+# Author
+Ugwu Adaeze (AltSchooler)
