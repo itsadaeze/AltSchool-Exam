@@ -16,7 +16,7 @@ export default{
 .decrement{
   padding: 10px;
   border-radius: 5px;
-   background: #4a9edb;
+   background: #e009bc;
   border: 1px solid ;
   color: white;
   width: 70px;
@@ -30,7 +30,7 @@ export default{
 .decrement:hover{
   background: white;
   color: #4a9edb;
-  border: 1px solid #4a9edb;
+  border: 1px solid #e009bc;
   border-radius: 10px;
 }
 </style>

@@ -4,7 +4,7 @@
     <img
       alt="AltSchool logo"
       class="logo"
-      src="@/assets/altschool.png"
+      src="@/assets/ada.jpg"
       width="125"
       height="125"
     />
@@ -12,17 +12,8 @@
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/counter">Counter</RouterLink>
-        <a href="https://github.com/olatunde1998/AltSchool-Vue-Exam3">Github</a>
+        <a href="https://github.com/itsadaeze/AltSchool-Exam">Github</a>
 
-        <div class="rasheed-box">
-          <img
-            alt="rasheed logo"
-            class="rasheed-img"
-            src="@/assets/rasheed_img.png"
-            width="125"
-            height="125"
-          />
-        </div>
       </nav>
     </div>
   </header>
@@ -32,31 +23,18 @@
     <div class="altschool-wrapper">
       <h3 class="welcome">
         Welcome 👋 <br />
-        I'm Rasheed Olatunde (AltSchooler)
+        I'm Ugwu Adaeze(AltSchooler)
       </h3>
       <div>
-        <h3 class="altschool-name">AltSchool Africa Third Semester Exam </h3>
+   
         <p class="altschool-history">
-          As the name suggests, AltSchool Africa is different from the
-          traditional institutions. We are a school for individuals looking to
-          gain technical skills and kickstart a career in Tech. AltSchool Africa
-          takes a non-traditional approach to learning by teaching courses
-          directly connected with the selected track.
+          My journey in AltSchool has been an exicting one so far. My Tech skills has improved beyond my expectations, I am truly proud and happy to be an Altschooler. I will happily recommend it to anyone intrested in changing their lives via tech. Thank you Altchool.
         </p>
         <button class="project-btn"><RouterLink to="/counter" class="project-link">Check my Exam Project  ⬅️</RouterLink></button>
 
       </div>
     </div>
-    <div class="about-project">
-      <!-- about the student-->
-      <div class="about-wrapper">
-        <about-me />
-      </div>
-      <!--project section-->
-      <div class="project-wrapper">
-        <project-info />
-      </div>
-    </div>
+    
     <!-- skill/ technology used-->
     <div class="skills">
       <skills-used />
@@ -66,26 +44,24 @@
 </template>
 
 <script>
-import aboutMe from "@/components/aboutMe";
+
 import skillsUsed from "@/components/skillsUsed";
 import footerSection from "@/components/footerSection";
-import projectInfo from "@/components/projectInfo";
+
 
 export default {
   components: {
-    aboutMe,
+    
     skillsUsed,
     footerSection,
-    projectInfo,
+   
   },
 };
 </script>
 
 <style>
 .header-box{
-  background: #4a9edb;
-
-
+  background: #e030ab;
 }
 header {
   line-height: 1.5;
@@ -95,7 +71,7 @@ header {
   align-items: center;
   max-width: 1440px;
   vertical-align: center;
-  background: #A5CFED;
+  background: #e030ab;
   margin: 0 auto;
 }
 .altschool-wrapper {
@@ -103,12 +79,12 @@ header {
 }
 .welcome{
   padding-left: 10px;
-  color: #4A9EDB;
+  color: #e030ab;
   line-height: 30px;
 }
 .altschool-name{
   text-align: center;
-  color: #4a9edb;
+  color: #e030ab;
   font-size: 16px;
   padding-left: 0px 10px;
 
@@ -120,7 +96,7 @@ header {
 }
 .project-btn{
   padding: 16px;
-  background-color: #4a9edb;
+  background-color: #e030ab;
   color: white;
   border: none;
   border-radius: 4px;
@@ -170,7 +146,7 @@ nav a {
   padding: 0 .5rem;
   border-left: 1px solid var(--color-border);
   text-decoration: none;
-  color: #4A9EDB;
+  color: #630802;
 }
 
 nav a:first-of-type {

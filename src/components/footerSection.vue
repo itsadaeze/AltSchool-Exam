@@ -1,6 +1,6 @@
 <template>
   <div class="copywrite">
-    <p>©️2023 Altschooler ---- Rasheed Olatunde</p>
+    <p>©️2023 Ugwu Adaeze</p>
   </div>
 </template>
 
@@ -11,11 +11,11 @@ export default {};
 <style>
 .copywrite {
   height: 10vh;
-  background: #A5CFED;
+  background: #e030ab;
   display:flex;
   align-items: center;
   justify-content: center;
-  color: #4A9EDB;
+  color: #1a0012;
 }
 .copywrite>p{
   font-size: 20px;

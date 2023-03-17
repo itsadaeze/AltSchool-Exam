@@ -4,7 +4,7 @@
       <img
         alt="AltSchool logo"
         class="logo"
-        src="@/assets/altschool.png"
+        src="@/assets/ada.jpg"
         width="125"
         height="125"
       />
@@ -12,16 +12,11 @@
         <nav>
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/counter">Counter</RouterLink>
-          <a href="https://github.com/olatunde1998/AltSchool-Vue-Exam3"
+          <a href="https://github.com/itsadaeze/AltSchool-Exam"
             >Github</a
           >
-          <img
-            alt="rasheed logo"
-            class="rasheed-img"
-            src="@/assets/rasheed_img.png"
-            width="125"
-            height="125"
-          />
+          
+            
         </nav>
       </div>
     </header>
@@ -67,13 +62,18 @@ export default {
 </script>
 <style>
 .header-box {
-  background: #A5CFED;
+ 
+  background: #e009bc;
+}
+.logo{
+  
+  border-radius: 50px;
 }
 .counter-wrapper {
   border-top: 2px solid white;
   height: 100vh;
   margin-top: 0px;
-  background-color: #A5CFED;
+  background-color: #e009bc;
 }
 .heading-count {
   height: 120px;
@@ -97,11 +97,11 @@ export default {
   justify-content: center;
 }
 .count-heading {
-  color: #4a9edb;
+  color: #e009bc;
 }
 .count {
   font-size: 24px;
-  color: #4a9edb;
+  color: #e009bc;
 }
 .input-value {
   display: flex;
